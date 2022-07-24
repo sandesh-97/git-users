@@ -36,3 +36,191 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  /* align-items: center; */
+  background: rgb(130, 200, 250);
+  border-radius: 40px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* display: flex; */
+  height: 50px;
+  /* justify-content: center; */
+  /* position: relative; */
+  width: 200px;
+}
+
+.container1 {
+  /* align-items: center; */
+  background: rgb(130, 200, 250);
+  border-radius: 40px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* display: flex; */
+  height: 20px;
+  /* justify-content: center; */
+  /* position: relative; */
+  width: 100px;
+}
+
+.container-2 {
+  /* align-items: center; */
+  background: rgb(212, 46, 46);
+  border-radius: 40px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* display: flex; */
+  height: 20px;
+  /* justify-content: center; */
+  /* position: relative; */
+  width: 20px;
+}
+
+
+/* https://codepen.io/rikschennink/pen/rpNGyy */
+.input {
+	
+	/* // needs to be relative so the :focus span is positioned correctly */
+	position:relative;
+	
+	/* // bigger font size for demo purposes */
+	font-size: 1.5em;
+	
+	/* // the border gradient */
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	
+	/* // the width of the input border */
+	padding: 3px;
+	
+	/* // we want inline fields by default */
+	display: inline-block;
+	
+	/* // we want rounded corners no matter the size of the field */
+	border-radius: 9999em;
+	
+
+
+	span {
+		
+		transform: scale(.993, .94);
+		transition: transform .5s, opacity .25s;
+		opacity: 0;
+		
+		position:absolute;
+		z-index: 0; 
+		margin:4px; 
+		left:0;
+		top:0;
+		right:0;
+		bottom:0;
+		border-radius: inherit;
+		pointer-events: none; 
+		
+	
+		box-shadow: inset 0 0 0 3px #fff,
+			0 0 0 4px #fff,
+			3px -3px 30px #1beabd, 
+			-3px 3px 30px #10abff;
+	}
+	
+}
+
+
+/* https://codepen.io/rikschennink/pen/rpNGyy */
+.input1 {
+	
+	/* // needs to be relative so the :focus span is positioned correctly */
+	position:relative;
+	
+	/* // bigger font size for demo purposes */
+	font-size: 1em;
+	
+	/* // the border gradient */
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	
+	/* // the width of the input border */
+	padding: 3px;
+	
+	/* // we want inline fields by default */
+	display: inline-block;
+	
+	/* // we want rounded corners no matter the size of the field */
+	border-radius: 9999em;
+	
+
+
+	span {
+		
+		transform: scale(.993, .94);
+		transition: transform .5s, opacity .25s;
+		opacity: 0;
+		
+		position:absolute;
+		z-index: 0; 
+		margin:4px; 
+		left:0;
+		top:0;
+		right:0;
+		bottom:0;
+		border-radius: inherit;
+		pointer-events: none; 
+		
+	
+		box-shadow: inset 0 0 0 3px #fff,
+			0 0 0 4px #fff,
+			3px -3px 30px #1beabd, 
+			-3px 3px 30px #10abff;
+	}
+	
+}
+
+
+body {
+	background-color: #b3e5fc;
+	border-radius: 10px;
+	font-family: "Raleway", sans-serif;
+  }
+  h2 {
+	text-align: center;
+	margin: 20px 0;
+  }
+  .textLeft {
+	text-align: left;
+  }
+  .loadingDiv {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+  }
+  .card {
+	width: 450px;
+	border: none;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: auto;
+  }
+  .image {
+	min-width: 155px;
+	margin-right: 20px;
+  }
+  .stats {
+	background: #f2f5f8 !important;
+	color: #000 !important;
+  }
+  .articles {
+	font-size: 10px;
+	color: #a1aab9;
+  }
+  .number1 {
+	font-weight: 500;
+  }
+  .followers {
+	font-size: 10px;
+	color: #a1aab9;
+  }
+  .number2 {
+	font-weight: 500;
+  }
+  .rating {
+	font-size: 10px;
+	color: #a1aab9;
+  }
+  .number3 {
+	font-weight: 500;
+  }
